@@ -1,0 +1,65 @@
+<template>
+  <div class="catview">
+
+    <returnBtn></returnBtn>
+
+    
+    <div class="picture-container">
+            <div class="pic-left">
+              <!-- <img src="../../assets/images/catView/catView_3.png" alt=""> -->
+            </div>
+            <div class="pic-right">
+
+            </div>
+    </div>
+     
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+import returnBtn from "@/components/returnBtn"
+export default {
+  name: 'catView',
+  components: {
+    returnBtn
+  },
+  mounted() {
+      const mySwiper = new Swiper('.swiper-container')
+  }
+}
+</script>
+
+<style lang="scss">
+.catview {
+    width: 100%;
+    height: 100%;
+    background: url("../../assets/images/bg.jpg") no-repeat center ;
+     padding-top: 55px;
+    // background-size: cover;
+    
+    .picture-container{
+      position: relative;
+      width: 70%;
+      height: 80%;
+      margin-top: 20px;
+      background: orangered;
+      background: url("../../assets/images/catView/catView_0.jpg") center no-repeat;
+      background-size: 100%;
+      margin:30px auto;
+     
+      .pic-left {
+        position: absolute;
+        left:50px;
+        top: 50px;
+        width:50%;
+        // background: url("../../assets/images/catView/left_bg.jpg") no-repeat;
+        background-size: cover;
+        // transform-style:preserve-3d;
+        // transform-origin: center;
+        // transform: rotate(45deg);
+      }
+    }
+}
+
+</style>
