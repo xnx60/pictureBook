@@ -3,14 +3,14 @@
 
     <returnBtn></returnBtn>
 
-     <div class="picture-container">
+    <div class="picture-container">
        <div class="pic-left">
          <!-- <img src="../../assets/images/catView/catView_3.png" alt=""> -->
        </div>
         <div class="pic-right">
 
        </div>
-     </div>
+    </div>
      
   </div>
 </template>

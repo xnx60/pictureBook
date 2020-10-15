@@ -12,7 +12,8 @@ export default createStore({
         select(state, name) {
             let index = state.pictureStories.indexOf(name)
             console.log(index)
-            index = -1 ? state.selected = 0 : state.selected = index
+            index === -1 ? state.selected = 0 : state.selected = index
+
             console.log(state.selected);
         },
         return (state) {

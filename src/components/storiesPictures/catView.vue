@@ -23,9 +23,6 @@ export default {
   name: 'catView',
   components: {
     returnBtn
-  },
-  mounted() {
-      const mySwiper = new Swiper('.swiper-container')
   }
 }
 </script>

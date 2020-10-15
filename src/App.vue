@@ -2,7 +2,7 @@
   <div id="app">
     <div class="container">
       <!-- <entry></entry> -->
-       <component :is="pictureStories[1]"></component>
+       <component :is="pictureStories[selected]"></component>
     </div>   
   </div> 
 </template>

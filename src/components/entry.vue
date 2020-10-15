@@ -51,7 +51,7 @@ export default {
         {
           name:'zhongTingLife',
           site:'"万科云"办公区',
-          label:'[ 西关轶事 ]',
+          label:'[ 中庭生活 ]',
           left:'59%',
           top:'35%'
         }

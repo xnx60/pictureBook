@@ -1,13 +1,17 @@
 <template>
-
+    <returnBtn></returnBtn>
 </template>
 
 <script>
+import returnBtn from "@/components/returnBtn"
 export default {
-name: "zhongTingLife"
+name: "zhongTingLife",
+components: {
+    returnBtn
+  }
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 
 </style>
